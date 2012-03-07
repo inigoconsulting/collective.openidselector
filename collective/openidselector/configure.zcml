@@ -1,0 +1,17 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+        xmlns:browser="http://namespaces.zope.org/browser">
+
+    <browser:resourceDirectory
+        directory="resources"
+        name="openid-selector"
+        />
+
+    <browser:viewlet
+        name="collective.openidselector.js"
+        for="*"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        template="includes.pt"
+        permission="zope.Public"
+        />
+
+</configure>
