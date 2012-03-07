@@ -1,4 +1,6 @@
+<div id="openid-selector-includes">
 <script defer src="++resource++openid-selector/openid-selector/js/openid-jquery.js"></script>
 <script defer src="++resource++openid-selector/openid-providers.js"></script>
 <script defer src="++resource++openid-selector/openid-wrapper.js"></script>
 <link rel="stylesheet" href="++resource++openid-selector/openid-selector/css/openid.css"/>
+</div>
