@@ -5,7 +5,7 @@ version = '0.1'
 
 setup(name='collective.openidselector',
       version=version,
-      description="Integration of openid-selector (http://code.google.com/p/openid-selector/)  for plone",
+      description="Integration of openid-selector for plone",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
